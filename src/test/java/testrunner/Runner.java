@@ -9,7 +9,7 @@ import org.junit.runner.RunWith;
         features = {"src/test/Resources/features"},
         glue = {"stepdefinitions", "cucumberHooks"},
         plugin = {"pretty",
-                "com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:"},
+                "html:testResult/Drivewyze_cucumber_reports.html"},
         monochrome = true,
         dryRun = false
 )
